@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+
+    .botao{
+        border: none;
+        text-align: center;
+        padding: 16px 32px;
+        margin: 4px 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    }
+    .botao1 {
+        background-color: rgb(164, 108, 216);
+        margin: 5px;
+
+        
+    }
+    .botao2 {
+        background-color: aqua;
+        margin: 5px;
+
+        
+    }
+    .botao3 {
+        background-color: rgb(239, 169, 228);
+        margin: 5px;
+
+        
+    }
+    .botao4 {
+        background-color: rgb(0, 255, 153);
+        margin: 5px;
+
+        
+    }
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+</style>
+</head>
+<body>
+    <h2>DOM básico</h2>
+    <button id="botao-html" class=" botao botao1" onclick="document.getElementById('exercicio').innerHTML ='HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. O HTML é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web'">HTML</button>
+    <button id="botao-css" class="botao botao2" onclick="document.getElementById('exercicio').innerHTML = 'CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou XML. Ele permite que você separe o conteúdo de um documento da sua apresentação visual e permite que você aplique estilos diferentes a diferentes elementos HTML. Por exemplo, você pode definir estilos diferentes para cabeçalhos, parágrafos e links. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML'">CSS</button>
+    <button id="botao-javascript" class="botao botao3" onclick="document.getElementById('exercicio').innerHTML = 'JavaScript é uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente, controlar múltimídias, imagens animadas e muito mais. É uma linguagem pequena e leve. Dentro de um ambiente de host por exemplo, um navegador web o JavaScript pode ser ligado aos objetos deste ambiente para prover um controle programático sobre eles'">JavaScript</button>
+    <button id="botao-dom" class="botao botao4" onclick="document.getElementById('exercicio').innerHTML = 'A sigla DOM significa Document Object Model, que em português significa Modelo de Documento por Objetos. Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web.'">DOM</button>
+
+<p id="exercicio"></p>
+</body>
+</html>
